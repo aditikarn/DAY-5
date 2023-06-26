@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            height: 100px;
+            width: 100px;
+            transition: 10s;
+            font-size: medium;
+            font-weight: bolder;
+            color: black;
+            background-color:bisque;
+        }
+        #translateDiv:hover
+        {
+            transform:translate(100px,100px);
+            background-color: palevioletred;
+            color: black;    
+        }
+        #rotateDiv:hover
+        {
+          transform: rotate(270deg);
+          background-color: aqua;
+          color: black;
+          border-style: ridge;
+        }
+        #rotate3DDiv:hover
+        {
+            transform: rotate(1,1,360deg);
+            background-color:chartreuse;
+            color: black;
+        }
+        #skewDiv:hover
+        {
+            transform: skew(360deg);
+            background-color:cornflowerblue;
+            color: black;
+        }
+        #opacityDiv:hover
+        {
+            background-color: aqua;
+            color: yellowgreen;
+            text-align:center;
+            padding-top: 30px;
+            border-style: groove;
+        }
+        #RGBADiv:hover
+        {
+          background-color: rgb(75,80,132 );
+        }
+        #BoxShadowDiv:hover
+        {
+            box-shadow: 0px 0px 30px rgb(223,77,132);
+            height: 100px;;
+           
+        }
+        #TextShadowDiv:hover
+        {
+            text-shadow: 3px 3px 3px rgb(247, 38, 11);
+            font-size: large;
+        }
+        #ScaleDiv:hover
+        {
+            transform: scale(0.5,1.5);
+            background-color: rgb(48, 205, 226);
+            color:rgb(255, 255, 255);
+            
+        }
+        #BorderRadiusDiv:hover
+        {
+            border-radius: 60%;
+            background-color: brown;
+            border-style: dotted;
+        }
+        #OverFlowDiv{overflow:auto;}  
+        
+    </style>
+</head>
+<body>
+<div id="translateDiv"> translate</div><br><hr><br>
+<div id="rotateDiv">rotate</div><br><hr><br>
+<div id="rotate3DDiv">rotate3D</div><br><hr><br>
+<div id="RGBADiv"> RGBA</div><br><hr><br>   
+<div id="BoxShadowDiv" style="text-align: center; padding-top: 30px;"> MAA😍</div><br><hr><br>
+<div id="TextShadowDiv">text-shadow</div><br><hr><br>
+<div id="skewDiv">skew</div><br><hr><br>
+<div id="ScaleDiv">Scale</div><br><hr><br>
+<div id="BorderRadiusDiv">BorderRadius </div><br><hr><br>
+<div id="OverFlowDiv">OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow OverFlow</div><br><hr><br>
+<div id="opacityDiv">opacityt</div>
+</body>
+</html>
